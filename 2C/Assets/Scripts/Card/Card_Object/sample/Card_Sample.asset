@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 286ae236634c59b43839e377c78c542e, type: 3}
   m_Name: Card_Sample
   m_EditorClassIdentifier: 
-  cardName: 
-  cost: 0
-  cardText: 
+  cardName: sample
+  cost: 1
+  cardType: 0
+  cardText: this is card_sample
   upgratedCard: {fileID: 0}
