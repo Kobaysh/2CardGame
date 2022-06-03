@@ -13,16 +13,16 @@ public class Card_Sample : Card_Abstract {
 
     // private member
 
-    public override void Awake() {
+    public void Awake() {
         
     }
 
-    public override void Start () {
+    public void Start () {
 	
 	}
 	
 
-    public override void Update () {
+    public void Update () {
 
 	}
 

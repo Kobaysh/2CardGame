@@ -19,11 +19,7 @@ public abstract class Card_Abstract : ScriptableObject
     protected Card_Abstract upgratedCard = null;
     // private member
 
-    public abstract void Awake();
 
-    public abstract void Start();
-
-     public abstract void Update();
 
     public abstract void Action();
 }
