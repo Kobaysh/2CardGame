@@ -2,32 +2,35 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Card_Abstract : ScriptableObject
+namespace Card
 {
-    // static field
-
-    // public member
-    public enum Card_Type
+    public abstract class Card_Abstract : ScriptableObject
     {
-        Attack,
-        Skill,
-        Power
+        // static field
+
+        // public member
+        public enum Card_Type
+        {
+            Attack,
+            Skill,
+            Power
+        }
+
+        // serialized field
+        [SerializeField]
+        protected string cardName;
+        [SerializeField]
+        protected int cost;
+        [SerializeField]
+        protected Card_Type cardType;
+        [SerializeField]
+        protected string cardText;
+        [SerializeField]
+        protected Card_Abstract upgratedCard = null;
+        // private member
+
+
+
+        public abstract void Action();
     }
-
-    // serialized field
-    [SerializeField]
-    protected string cardName;
-    [SerializeField]
-    protected int cost;
-    [SerializeField]
-    protected Card_Type cardType;
-    [SerializeField]
-    protected string cardText;
-    [SerializeField]
-    protected Card_Abstract upgratedCard = null;
-    // private member
-
-
-
-    public abstract void Action();
 }

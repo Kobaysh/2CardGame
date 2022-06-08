@@ -2,34 +2,41 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
- [CreateAssetMenu(menuName = "Assets/Card Scriptable/Card_Sample")]
-public class Card_Sample : Card_Abstract {
- 
-    // static field
+namespace Card
+{
+    [CreateAssetMenu(menuName = "Assets/Card Scriptable/Card_Sample")]
+    public class Card_Sample : Card_Abstract
+    {
 
-    // public member
+        // static field
 
-    // serialized field
+        // public member
 
-    // private member
+        // serialized field
 
-    public void Awake() {
-        
+        // private member
+
+        public void Awake()
+        {
+
+        }
+
+        public void Start()
+        {
+
+        }
+
+
+        public void Update()
+        {
+
+        }
+
+        // Action
+        public override void Action()
+        {
+
+        }
+
     }
-
-    public void Start () {
-	
-	}
-	
-
-    public void Update () {
-
-	}
-
-	// Action
-	public override void Action()
-	{
-
-	}
-
 }
