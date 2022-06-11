@@ -57,6 +57,8 @@ public class Card_Intract : MonoBehaviour {
 
     public void OnPointerEnter(BaseEventData data)
     {
+        PointerEventData pointerEventData = (PointerEventData)data;
+        
         Debug.Log(("OnPointerEneter"));
     }
 
